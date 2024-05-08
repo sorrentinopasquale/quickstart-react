@@ -6,7 +6,7 @@ import Vapi from "@vapi-ai/web";
 import { isPublicKeyMissingError } from "./utils";
 
 // Put your Vapi Public Key below.
-const vapi = new Vapi("0000XXXX-XXXX-XXXX-XXXX-XXXXXXXX0000");
+const vapi = new Vapi("13bd5ef2-f4b8-43aa-b37d-37e28b2612a7");
 
 const App = () => {
   const [connecting, setConnecting] = useState(false);
@@ -106,8 +106,8 @@ const assistantOptions = {
     language: "en-US",
   },
   voice: {
-    provider: "playht",
-    voiceId: "jennifer",
+    provider: "11labs",
+    voiceId: "5RwOVCf3c11dCECMYZ0G",
   },
   model: {
     provider: "openai",
